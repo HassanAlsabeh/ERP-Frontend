@@ -1,0 +1,85 @@
+.team_container{
+   
+    max-width: 100%;
+}
+
+.team_container--section{
+    max-width: 100%;
+}
+
+.team_container button{
+    padding: .5rem;
+    background-color: honeydew;
+    border: 1px solid rgb(255, 64, 64);
+    border-radius: .2rem;
+    color: rgb(255, 64, 64);
+    transition: ease-in .1s;
+    margin: 2rem auto 0;
+}
+
+.team_container button:hover{
+    background-color: rgb(255, 64, 64);
+    color: honeydew;
+}
+
+
+
+.team_container--data{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+
+.team_container--data ul {
+    display: grid;
+    grid-template-columns: .5fr 2fr 2fr .5fr;
+    border: none;
+    border-radius: .3rem;
+    padding: 0 5px;
+    min-height: 3.5rem;
+    background-color: rgb(190, 190, 190);
+    padding: 1rem auto;
+}
+
+.team_container--data a{
+    margin-bottom: 2rem;
+}
+
+.team_container--data a:hover{
+    opacity: 0.9;
+} 
+
+
+
+ .link{
+    height: 2.5rem;
+}
+
+
+.team_container--data ul:hover{
+    color: black;
+}
+
+.team_container--data ul li{
+    list-style: none;
+    margin: auto ;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(82, 76, 76);
+} 
+
+.team--lastchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+.team--lastchild i{
+    color: red;
+    font-size: 1.3rem;
+    height: 100%;
+    width: 100%;
+    margin: auto ;
+} 

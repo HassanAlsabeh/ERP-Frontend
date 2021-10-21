@@ -1,0 +1,33 @@
+.add--skill{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.add--skill--button{
+    padding: 5px 10px;
+    display: flex;
+    align-self: center;
+    border: 0.3px solid rgb(75, 166, 202);
+    background-color: rgb(75, 166, 202);
+    color: white;
+    transition: ease-in .1s;
+}
+
+.error{
+   margin: auto;
+   text-align: center;
+}
+
+.add--skill--button:hover{
+    background-color: white;
+    color: rgb(75, 166, 202);
+}
+
+.add--skill input{
+    padding: 5px;
+    border: .2px solid gainsboro;
+}

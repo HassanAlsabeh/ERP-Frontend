@@ -1,0 +1,44 @@
+.select_project{
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.select_project h1{
+    margin-bottom: 2rem;
+}
+
+.select_project option{
+    color: rgb(0, 121, 121);
+}
+
+.select_project label{
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    color: rgb(0, 121, 121);
+}
+
+.select_project select{
+    min-width: 50%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.select_project button{
+    min-width: 20%;
+    margin: auto;
+}
+
+.select_project h3{
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(0, 121, 121);
+}
+
+.clickable:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    color: red;
+}
